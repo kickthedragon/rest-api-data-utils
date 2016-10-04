@@ -1,0 +1,15 @@
+[package]
+name = "rest-api-data-utils"
+version = "0.1.0"
+authors = ["Eric Remigino <eric.remigino@gmail.com>"]
+
+[dependencies]
+rustc-serialize = "^0.3"
+rust-base58 = "0.0.4"
+
+[dev-dependencies]
+rand = "^0.3"
+
+[features]
+default = []
+json-types = []
